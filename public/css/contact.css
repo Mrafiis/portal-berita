@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+/* card-section */
+.card-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* posisi card */
+.card-section .box-about {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section .box-about .box:nth-child(2) img {
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imgasset/bgcard.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* backround navbar */
+.navigation {
+    width: 100%;
+}
+
+.navigation .box-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* logo TASTY FOOD */
+.navigation .box-navigation .box:nth-child(1) h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 110px;
+    /* mengatur jarak logo */
+    font-size: 30px;
+}
+
+/* nth (2) = mengambil box 2 */
+.navigation .box-navigation .box:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+    /* mengatur jarak navbar */
+    margin-top: 110px;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li {
+    /* menghilangkan list */
+    list-style-type: none;
+    /* jarak samping */
+    margin-left: 40px;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#about {
+    font-size: 40px;
+}
+
+.card-section .container .row div img {
+    object-fit: cover;
+    border-radius: 5% 5% 5% 5%;
+}
+
+/* KONTAK KAMI */
+.contact {
+    height: 140vh;
+    justify-content: center;
+}
+
+/* map */
+.map-section {
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.map-section .row .map {
+    flex: 1 1 45rem;
+    /* width: 100%; */
+    object-fit: cover;
+    height: 500px;
+}
